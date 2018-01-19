@@ -1,0 +1,241 @@
+body {
+	background:#fff;
+	background-image:url('../img/background.jpg');
+}
+.nav {
+ margin-right:150px;
+ float:right;
+}
+.nav ul li {
+	display:inline-block;
+	text-decoration: none;
+	margin-left:10px;
+}
+
+.nav li a {
+	font-family:Helvetica Neue Light, 'sans-serif' ;
+	text-decoration: none;
+	color:#363636;
+	font-size:22px;
+}
+
+.nav li a:hover {
+	border-bottom:3px solid #363636;
+}
+
+li a .dropdownBtn {
+	display:inline-block;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+ line-height:50%;
+ width:300px;
+ height:60px;
+ margin-left:135px;
+ margin-bottom:20px;
+ padding:10px;
+ float:left;
+}
+
+.header img{
+	margin-left: 430px;
+}
+.header h1 {
+	text-align:center;
+	font-weight:lighter;
+	font-size:27px;
+}
+.clear {
+	clear:both;
+	margin-bottom:20px;
+}
+.container {
+	height:750px;
+	margin:0 auto;
+	width:80%;
+	background-color:#eaeaea;
+}
+
+.row {
+	margin:20px;
+	padding:5px;
+}
+
+.container .row span {
+	font-size:14px;
+}
+
+.judulContent {
+	margin:10px;
+	text-align:center;
+	font-weight:bolder;
+	font-size:30px;
+	padding-bottom:10px;
+	clear:left ;
+}
+
+.isi-content {
+	font-family: Helvetica Neue Light, 'arial';
+}
+
+.isi-content .gambar {
+	float:left;
+	margin-right:30px;
+}
+
+.isi-content img {
+	filter:grayscale(100);
+	transition: 1s;
+}
+
+.isi-content img:hover {
+	filter:grayscale(0);
+}
+
+.isi-content .text {
+	margin:10px;
+}
+
+.card {
+	height:600px;
+	background-color:white;
+	margin:0 auto;
+	width:315px;
+	box-shadow:0 4px 8px 0 #50595C;
+}
+
+.card h3 {
+	text-align:center;
+	padding:10px;
+}
+
+.card p {
+	margin-left:30px;
+	opacity: .5;
+	font-size:13px;
+}
+
+.card input {
+	margin-left:30px;
+	border:2px solid #eaeaea;
+	border-radius:7px;
+}
+
+.card input[type=checkbox]{
+	font-size: 20px;
+}
+
+
+.card select {
+	margin-left:30px;
+	font-size:13px;
+	border:2px solid #eaeaea;
+	border-radius: 7px;
+	width:250px;
+	padding:5px 5px;
+}
+
+.card select::selection {
+	font-weight:bolder;
+	padding:5px 5px;
+	color:#363636;
+	width:250px;
+}
+
+.card textarea {
+	margin-left:30px;
+	border:2px solid #eaeaea;
+	border-radius: 7px;
+	width:250px;
+}
+
+.card button {
+	margin-left:30px;
+	text-align:center;
+	background-color:#363636;
+	border:2px solid #eaeaea;
+	border-radius: 7px;
+	color:#fff;
+	padding:5px;
+	width:80px;
+
+}
+
+.card button:hover {
+	box-shadow:0 4px 8px 0 #363636;
+	background-color:white;
+	color:#363636;
+}
+
+
+.card input[type=text]{
+	width:250px;
+	box-sizing:border-box;
+	padding:12px 20px;
+	height:30px;
+}
+.card input[type=text]:focus {
+	font-weight:bolder;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#363636;
+}
+.card textarea:focus {
+	font-weight:bolder;
+	padding:10px;
+	color:#363636;
+}
+
+#biodata {
+	width: 60%;
+	float: left;
+
+}
+
+#biodata td {
+	font-size: 13px;
+}
+
+#biodata .td-isi {
+	color:#363636;
+	opacity:.7;
+}
+
+.footer {
+	margin-bottom: 10px;
+	text-align: center;
+	background: black;
+	color: white;
+}
